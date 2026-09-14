@@ -99,9 +99,54 @@ nav ul li{
 }
 
 nav ul li a{
-   
+    text-decoration: none;
 }
 
 nav ul li a:hover{
-    
+    background-color: blanchedalmond;
+}
+
+.inline{
+    display: inline-block;
+}
+
+.bgimage{
+    background-image: url(../images/gamecontroller.jpg);
+    height: 400px; 
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    disaplay: grid;
+    grid-template-columns: 200px;
+    grid-template-rows: 100px;
+    align-content: center;
+    justify-content: center;
+}
+
+.imagegallery{
+    display: grid;
+    gird-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: auto;
+    gap: 10px;
+}
+
+.imagegallery>img{
+    width: 100%;
+    border-width: 0px;
+    padding: 0px;
+    margin: 0px;
+}
+
+.fig{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: auto;
+    gap: 20px;
+}
+
+.group{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: auto;
+    gap: 20px;
 }
