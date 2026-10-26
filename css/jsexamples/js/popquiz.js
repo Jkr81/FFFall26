@@ -63,6 +63,7 @@ function nextQuestion() {
     questionPop = getQuestion();
     if(questionPop != null) {
         document.getElementById("question").innerHTML = questionPop.question;
+        document.getElementById("optionsForm").reset();
     } else {
         document.getElementById("question").innerHTML = "Quiz Complete!";
         document.getElementById("submit").style.display = "none";
