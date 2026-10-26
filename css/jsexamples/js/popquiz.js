@@ -48,7 +48,7 @@ document.getElementById("submit").addEventListener("click", function() {
      if(selected.value == questionPop.answer){
         document.getElementById("result").innerHTML = "Correct!";
      } else {
-        document.getElementById("result").innerHTML = "Incorrect. The correct answer is " + qa[currentQuestion].answer + ".";
+        document.getElementById("result").innerHTML = "Incorrect. The correct answer is " + questionPop.answer + ".";
      }
      nextQuestion();
      setTimeout(()=>{
